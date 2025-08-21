@@ -33,7 +33,7 @@ const Hero = () => {
 
   return (
     <>
-      <div className="flex flex-col justify-center items-center my-6 gap-8 " ref={ref}>
+      <div className="flex flex-col justify-center items-center my-6 gap-8 overflow-x-hidden" ref={ref}>
         <nav className='lg:h-[80px] flex justify-center lg:justify-between w-full lg:px-44'>
           <div className="left">
             <img src={Logo} alt="Logo" className="mt-2" />
